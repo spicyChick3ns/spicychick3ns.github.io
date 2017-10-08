@@ -21,12 +21,10 @@
 }
 a {
   text-decoration: none;
-  color: inherit;
+  color: #D81B60;
 }
 #splash {
-  /*background-color: #F57C00;*/
   color: #263238;
-  /*padding: 30px;*/
 
 }
 #menu {
