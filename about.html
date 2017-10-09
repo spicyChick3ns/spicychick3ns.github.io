@@ -1,66 +1,48 @@
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Melissa</title>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="pure-g">
-    <div id="menu" class="pure-u-1">
-      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-          <ul style="float:right;" class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="about.html" class="pure-menu-link">ABOUT</a></li>
-              <li class="pure-menu-item pure-menu-selected"><a href="https://github.com/spicychick3ns" class="pure-menu-link">GITHUB</a></li>
-              <li class="pure-menu-item pure-menu-selected"><a href="webportfolio.html" class="pure-menu-link">WEB PORTFOLIO</a></li>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
 
-              <!-- <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">PICS</a></li>
-              <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">MUSIC</a></li> -->
-          </ul>
-      </div>
-    </div>
-    <div id="splash" class="pure-u-1">
-      <a href="/"><h1>MELISSA</h1></a>
-    </div>
-    <div class="alignment pure-u-1">
-      <p>Hi I'm Melissa!
-        I am a third year computer science student at McMaster University. I play the ukulele.</p>
-      </div>
+  <body>
 
-      <div class="alignment pure-u-lg-1-6 pure-u-md-1-6 pure-u-1">
-      <h3> TOOLS </h3>
-      <ul>
-        <li> JUnit </li>
-        <li> PyUnit </li>
-        <li> Git </li>
-        <li> Bash </li>
-      </ul>
-    </div>
+       <div id="includedContent">
+       </div>
+       <div class="alignment pure-u-1">
+         <p>Hi I'm Melissa!
+           I am a third year computer science student at McMaster University. I play the ukulele.</p>
+         </div>
 
-    <div class="alignment pure-u-lg-1-6 pure-u-md-1-6 pure-u-1">
-      <h3> LANGUAGES </h3>
-      <ul>
-        <li> Java </li>
-        <li> Python </li>
-        <li> C# </li>
-        <!-- <li> C++ </li> -->
-        <!-- <li> VB </li> -->
-        <li> SQL </li>
-        <li> HTML/CSS </li>
-        <li> Javascript </li>
-      </ul>
-    </div>
-    <div class="alignment pure-u-lg-1-6 pure-u-md-1-6 pure-u-1">
-      <a href="/res/MG_Resume.pdf"><h3>RESUME</h3></a>
-    </div>
-</div>
+         <div class="alignment pure-u-lg-1-6 pure-u-md-1-6 pure-u-1">
+         <h3> TOOLS </h3>
+         <ul>
+           <li> JUnit </li>
+           <li> PyUnit </li>
+           <li> Git </li>
+           <li> Bash </li>
+         </ul>
+       </div>
 
-
-
-
-
-
-</body>
+       <div class="alignment pure-u-lg-1-6 pure-u-md-1-6 pure-u-1">
+         <h3> LANGUAGES </h3>
+         <ul>
+           <li> Java </li>
+           <li> Python </li>
+           <li> C# </li>
+           <!-- <li> C++ </li> -->
+           <!-- <li> VB </li> -->
+           <li> SQL </li>
+           <li> HTML/CSS </li>
+           <li> Javascript </li>
+         </ul>
+       </div>
+       <div class="alignment pure-u-lg-1-6 pure-u-md-1-6 pure-u-1">
+         <a href="/res/MG_Resume.pdf"><h3>RESUME</h3></a>
+       </div>
+     <script>
+       $(function(){
+         $("#includedContent").load("menu.html");
+       });
+     </script>
+  </body>
+</html>

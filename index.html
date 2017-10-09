@@ -1,34 +1,18 @@
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Melissa</title>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="pure-g">
-    <div id="menu" class="pure-u-1">
-      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-          <ul style="float:right;" class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="about.html" class="pure-menu-link">ABOUT</a></li>
-              <li class="pure-menu-item pure-menu-selected"><a href="https://github.com/spicychick3ns" class="pure-menu-link">GITHUB</a></li>
-              <li class="pure-menu-item pure-menu-selected"><a href="webportfolio.html" class="pure-menu-link">WEB PORTFOLIO</a></li>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
 
-              <!-- <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">PICS</a></li>
-              <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">MUSIC</a></li> -->
-          </ul>
-      </div>
+  <body>
+    <div>
+       <div id="includedContent"></div>
+       <p>Ukulele enthusiast. 3rd year CS Student. Canada.</p>
     </div>
-    <div id="splash" class="pure-u-1">
-      <a href="/"><h1>MELISSA</h1></a>
-        <p>Ukulele enthusiast. Third year CS Student. Canada.</p>
-    </div>
-</div>
-
-
-
-
-</body>
+     <script>
+       $(function(){
+         $("#includedContent").load("menu.html");
+       });
+     </script>
+  </body>
+</html>
