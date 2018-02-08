@@ -33,7 +33,7 @@ a {
 .imageSize {
   width:300px;
   height: 300px;
-  padding: 20px;
+  /* padding: 20px; */
 }
 #aboutMe {
   padding: 20px;
