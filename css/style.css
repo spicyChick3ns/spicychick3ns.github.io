@@ -1,9 +1,13 @@
-* {
+body {
   font-family:"arial";
   color: #FF5722;
-  background-color: #F5F5F5;
+  background-color: background: #1abc9c; background: -webkit-linear-gradient(left, #1abc9c, #f1c40f); background: -moz-linear-gradient(left, #1abc9c, #f1c40f); background: -ms-linear-gradient(left, #1abc9c, #f1c40f); background: -o-linear-gradient(left, #1abc9c, #f1c40f); background: linear-gradient(to right, #1abc9c, #f1c40f);
 
 }
+.big {
+  font-size: 40pt;
+}
+
 .titles {
   color: #00695C;
   text-align: center;
@@ -11,11 +15,8 @@
 #ukulele {
   color: #E91E63;
 }
-#icons {
-  text-align:center;
 
-}
-.iconImage {
+.icons {
   width:30px;
   height:30px;
 }
@@ -37,6 +38,9 @@ a {
 }
 #aboutMe {
   padding: 20px;
+}
+.plain {
+  list-style-type: none;
 }
 ul {
   list-style-type: disc;
@@ -62,10 +66,10 @@ li {
 .grid-item {
   float: left;
   width: 400px;
-  height: 3000px;
-  border: 2px solid #FAFAFA;
+  height: 300px;
+  border: 2px solid transparent;
 }
-.grid-item--portrait { 
+.grid-item--portrait {
   width: 300px;
   height: 350px; }
 .grid-item--width2 { width: 160px; }
@@ -75,4 +79,10 @@ img {
   width: 100%;
   height: 100%;
   object-fit: fill;
+}
+.pure-menu-list {
+  background-color: transparent;
+}
+.pure-menu-item:hover {
+  background-color: #d35400;
 }
