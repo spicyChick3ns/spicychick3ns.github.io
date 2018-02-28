@@ -1,9 +1,14 @@
 body {
-  font-family:"arial";
-  color: #FF5722;
-  background-color: background: #1abc9c; background: -webkit-linear-gradient(left, #1abc9c, #f1c40f); background: -moz-linear-gradient(left, #1abc9c, #f1c40f); background: -ms-linear-gradient(left, #1abc9c, #f1c40f); background: -o-linear-gradient(left, #1abc9c, #f1c40f); background: linear-gradient(to right, #1abc9c, #f1c40f);
+  font-family: 'Josefin Sans', sans-serif;
+  color: #16a085;
+  /* background-color: background: #1abc9c; background: -webkit-linear-gradient(left, #1abc9c, #f1c40f); background: -moz-linear-gradient(left, #1abc9c, #f1c40f); background: -ms-linear-gradient(left, #1abc9c, #f1c40f); background: -o-linear-gradient(left, #1abc9c, #f1c40f); background: linear-gradient(to right, #1abc9c, #f1c40f); */
+
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+*{font-family: 'Josefin Sans', sans-serif;}
 .big {
   font-size: 40pt;
 }
@@ -13,12 +18,13 @@ body {
   text-align: center;
 }
 #ukulele {
-  color: #E91E63;
+  color: #8e44ad;
 }
 
 .icons {
   width:30px;
   height:30px;
+  display: inline-block;
 }
 a {
   text-decoration: none;
@@ -43,7 +49,7 @@ a {
   list-style-type: none;
 }
 ul {
-  list-style-type: disc;
+  list-style-type: none;
   list-style-position: inside;
   padding: 0px;
 }
