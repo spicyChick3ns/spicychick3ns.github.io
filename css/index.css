@@ -83,3 +83,14 @@ a {
   width: 100%;
   transition: .5s ease;
 }
+
+#top, #resume-button {
+  outline-color: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+#top .button, #resume-button .button {
+  border-color: #7E57C2;
+  color: #7E57C2;
+}

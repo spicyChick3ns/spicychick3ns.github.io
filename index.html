@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="./css/style2.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-    <!-- for extra css -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,9 +24,12 @@
             <a href="mailto:gonzam4@mcmaster.ca" class="nav-item">
               <i class="icon fa fa-envelope"></i>
             </a>
+            <a href="https://soundcloud.com/m3lizard" class="nav-item">
+              <i class="icon fab fa-soundcloud"></i>
+            </a>
           </div>
           <div class="nav-right nav-menu">
-            <a class="nav-item is-tab" href="#about">About</a>
+            <a class="nav-item is-tab" href="#coolio">About</a>
             <a class="nav-item is-tab" href="#projects">Projects</a>
             <a class="nav-item is-tab" href="#cv">CV</a>
             <a class="nav-item is-tab" href="https://drive.google.com/open?id=1M7jhrGUaB5vmEB8HmoxjTAaO2APwD4hq">Resume</a>
@@ -36,8 +38,8 @@
       </div>
     </section>
 
-    <section class="section parallax" id="about">
-      <div class="container">
+    <section class="section parallax" id="coolio">
+      <div class="container" id="about">
         <div class="columns about-title has-text-centered">
           <h1 class="title">Melissa Gonzales</h1>
         </div>
@@ -55,92 +57,93 @@
     </section>
 
     <section class="section" id="projects">
-    <h1 class="title is-1 section-title">Projects</h1>
-    <div class="tile is-ancestor">
-      <div class="tile is-vertical is-parent">
-        <div class="columns project-apps">
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="./pictures/brian.jpg" alt="brian">
-                  <a href="https://spicychick3ns.github.io/MyAdorationForBrianMay/" target="_blank">
-                    <div class="overlay"></div>
-                  </a>
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media-content">
-                  <a href="https://spicychick3ns.github.io/MyAdorationForBrianMay/" target="_blank"><p class="title is-4">MyAdorationForBrianMay</p></a>
+      <h1 class="title is-1 section-title">Projects</h1>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-parent">
+          <div class="columns project-apps">
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9">
+                    <img src="./pictures/brian.jpg" alt="brian">
+                    <a href="https://spicychick3ns.github.io/MyAdorationForBrianMay/" target="_blank">
+                      <div class="overlay"></div>
+                    </a>
+                  </figure>
                 </div>
-                <div class="content">
-                  Fan page for Brian May.<br  />
-                  <a>#jQuery</a>
-                  <a>#Bootstrap</a>
+                <div class="card-content">
+                  <div class="media-content">
+                    <a href="https://spicychick3ns.github.io/MyAdorationForBrianMay/" target="_blank"><p class="title is-4">MyAdorationForBrianMay</p></a>
+                  </div>
+                  <div class="content">
+                    Fan page for Brian May.<br  />
+                    <a>#jQuery</a>
+                    <a>#Bootstrap</a>
+                  </div>
+                  <footer class="card-footer">
+                    <a class="card-footer-item" href="https://spicychick3ns.github.io/MyAdorationForBrianMay" target="_blank">Website</a>
+                    <a class="card-footer-item" href="https://github.com/spicyChick3ns/MyAdorationForBrianMay" target="_blank">Github</a>
+                  </footer>
                 </div>
-                <footer class="card-footer">
-                  <a class="card-footer-item" href="https://spicychick3ns.github.io/MyAdorationForBrianMay" target="_blank">Website</a>
-                  <a class="card-footer-item" href="https://github.com/spicyChick3ns/MyAdorationForBrianMay" target="_blank">Github</a>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="./pictures/piggy.png" alt="Piggy">
-                  <a href="https://github.com/spicyChick3ns/Piggy" target="_blank">
-                    <div class="overlay"></div>
-                  </a>
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media-content">
-                  <a href="https://github.com/spicyChick3ns/Piggy" target="_blank"><p class="title is-4">Piggy</p></a>
-                </div>
-                <div class="content">
-                  A 2-player game of pig implemented in JavaScript.<br  />
-                  <a>#JavaScript</a>
-                </div>
-                <footer class="card-footer">
-                  <a class="card-footer-item" href="https://github.com/spicyChick3ns/Piggy" target="_blank">Github</a>
-                </footer>
               </div>
             </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-16by9">
-                  <img src="./pictures/supertube.png" alt="supertube">
-                  <a href="https://github.com/spicyChick3ns/supertube" target="_blank">
-                    <div class="overlay"></div>
-                  </a>
-                </figure>
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9">
+                    <img src="./pictures/piggy.png" alt="Piggy">
+                    <a href="https://github.com/spicyChick3ns/Piggy" target="_blank">
+                      <div class="overlay"></div>
+                    </a>
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media-content">
+                    <a href="https://github.com/spicyChick3ns/Piggy" target="_blank"><p class="title is-4">Piggy</p></a>
+                  </div>
+                  <div class="content">
+                    A 2-player game of pig implemented in JavaScript.<br  />
+                    <a>#JavaScript</a>
+                  </div>
+                  <footer class="card-footer">
+                    <a class="card-footer-item" href="https://github.com/spicyChick3ns/Piggy" target="_blank">Github</a>
+                  </footer>
+                </div>
               </div>
-              <div class="card-content">
-                <div class="media-content">
-                  <a href="https://github.com/spicyChick3ns/supertube" target="_blank"><p class="title is-4">SuperTube</p></a>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9">
+                    <img src="./pictures/supertube.png" alt="supertube">
+                    <a href="https://github.com/spicyChick3ns/supertube" target="_blank">
+                      <div class="overlay"></div>
+                    </a>
+                  </figure>
                 </div>
-                <div class="content">
-                  A YouTube derivative which features a live search.<br/>
-                  <a>#JavaScript</a>
-                  <a>#React</a>
-                  <a>#Bootstrap</a>
-                  <a>#YoutubeApi</a>
+                <div class="card-content">
+                  <div class="media-content">
+                    <a href="https://github.com/spicyChick3ns/supertube" target="_blank"><p class="title is-4">SuperTube</p></a>
+                  </div>
+                  <div class="content">
+                    A YouTube derivative which features a live search.<br/>
+                    <a>#JavaScript</a>
+                    <a>#React</a>
+                    <a>#Bootstrap</a>
+                    <a>#YoutubeApi</a>
+                  </div>
+                  <footer class="card-footer">
+                    <a class="card-footer-item" href="https://github.com/spicyChick3ns/SuperTube" target="_blank">Github</a>
+                  </footer>
                 </div>
-                <footer class="card-footer">
-                  <a class="card-footer-item" href="https://github.com/spicyChick3ns/SuperTube" target="_blank">Github</a>
-                </footer>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="section" id="cv">
+    </section>
+
+    <section class="section" id="cv">
     <div class="tile is-ancestor">
       <div class="tile is-parent work-elem">
         <div class="tile is-child">
@@ -151,7 +154,7 @@
     <div class="tile is-ancestor">
       <div class="tile is-parent work-elem">
         <div class="tile is-child is-3">
-          <figure class="work-logo" id="long-logo">
+          <figure class="work-logo image is-128x128">
             <img src="./pictures/mcmaster.png" />
           </figure>
         </div>
@@ -235,12 +238,13 @@
       <a class="button is-primary is-outlined" target="_blank" href="https://drive.google.com/open?id=1M7jhrGUaB5vmEB8HmoxjTAaO2APwD4hq">View Resume</a>
     </div>
     <div class="container" id="top">
-      <a class="button" href="#about">
+      <a class="button" href="#coolio">
        <span class="icon is-small">
          <i class="fa fa-arrow-up"></i>
        </span>
      </a>
     </div>
   </section>
+
 </body>
 </html>
