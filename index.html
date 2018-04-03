@@ -1,16 +1,250 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src='./js/jquery.js'></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="./js/index.js"></script>
 
   </head>
-
   <body>
-    <div>
-       <div id="includedContent"></div>
-       <h1 id='intro'><span id='ukulele'>UKULELE</span> SHREDDER. CS STUDENT. CANADA</h1>
+    <section id=#navBar>
+      <div class="container is-fluid" id="nav">
+        <nav class="nav container void-background has-shadow is-fluid">
+          <div class="nav-left">
+            <a href="https://github.com/spicychick3ns" target="_blank" class="nav-item">
+              <i class="icon fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gonzalesmsd/" target="_blank" class="nav-item">
+              <i class="icon fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:gonzam4@mcmaster.ca" class="nav-item">
+              <i class="icon fa fa-envelope"></i>
+            </a>
+            <a href="https://soundcloud.com/m3lizard" class="nav-item">
+              <i class="icon fab fa-soundcloud"></i>
+            </a>
+          </div>
+          <div class="nav-right nav-menu">
+            <a class="nav-item is-tab" href="#coolio">About</a>
+            <a class="nav-item is-tab" href="#projects">Projects</a>
+            <a class="nav-item is-tab" href="#cv">CV</a>
+            <a class="nav-item is-tab" href="https://drive.google.com/open?id=1M7jhrGUaB5vmEB8HmoxjTAaO2APwD4hq">Resume</a>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section parallax" id="coolio">
+      <div class="container" id="about">
+        <div class="columns about-title has-text-centered">
+          <h1 class="title">Melissa Gonzales</h1>
+        </div>
+        <div class="columns about-desc">
+          <p class="intro">
+            I'm a passionate <span class="highlight">Software Developer</span> and <span class="highlight">ukuelele shredder</span>!
+          </p>
+        </div>
+      </div>
+      <a id="arrow-button" href="#projects">
+        <div class="arrow animated bounce">
+          <span class="icon fas fa-arrow-down"></span>
+        </div>
+      </a>
+    </section>
+
+    <section class="section" id="projects">
+      <h1 class="title is-1 section-title">Projects</h1>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-parent">
+          <div class="columns project-apps">
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9">
+                    <img src="./pictures/brian.jpg" alt="brian">
+                    <a href="https://spicychick3ns.github.io/MyAdorationForBrianMay/" target="_blank">
+                      <div class="overlay"></div>
+                    </a>
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media-content">
+                    <a href="https://spicychick3ns.github.io/MyAdorationForBrianMay/" target="_blank"><p class="title is-4">MyAdorationForBrianMay</p></a>
+                  </div>
+                  <div class="content">
+                    Fan page for Brian May.<br  />
+                    <a>#jQuery</a>
+                    <a>#Bootstrap</a>
+                  </div>
+                  <footer class="card-footer">
+                    <a class="card-footer-item" href="https://spicychick3ns.github.io/MyAdorationForBrianMay" target="_blank">Website</a>
+                    <a class="card-footer-item" href="https://github.com/spicyChick3ns/MyAdorationForBrianMay" target="_blank">Github</a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9">
+                    <img src="./pictures/piggy.png" alt="Piggy">
+                    <a href="https://github.com/spicyChick3ns/Piggy" target="_blank">
+                      <div class="overlay"></div>
+                    </a>
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media-content">
+                    <a href="https://github.com/spicyChick3ns/Piggy" target="_blank"><p class="title is-4">Piggy</p></a>
+                  </div>
+                  <div class="content">
+                    A 2-player game of pig implemented in JavaScript.<br  />
+                    <a>#JavaScript</a>
+                  </div>
+                  <footer class="card-footer">
+                    <a class="card-footer-item" href="https://github.com/spicyChick3ns/Piggy" target="_blank">Github</a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9">
+                    <img src="./pictures/supertube.png" alt="supertube">
+                    <a href="https://github.com/spicyChick3ns/supertube" target="_blank">
+                      <div class="overlay"></div>
+                    </a>
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media-content">
+                    <a href="https://github.com/spicyChick3ns/supertube" target="_blank"><p class="title is-4">SuperTube</p></a>
+                  </div>
+                  <div class="content">
+                    A YouTube derivative which features a live search.<br/>
+                    <a>#JavaScript</a>
+                    <a>#React</a>
+                    <a>#Bootstrap</a>
+                    <a>#YoutubeApi</a>
+                  </div>
+                  <footer class="card-footer">
+                    <a class="card-footer-item" href="https://github.com/spicyChick3ns/SuperTube" target="_blank">Github</a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cv">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent work-elem">
+        <div class="tile is-child">
+          <h1 class="title is-2 section-title">Education</h1>
+        </div>
+      </div>
     </div>
-  </body>
+    <div class="tile is-ancestor">
+      <div class="tile is-parent work-elem">
+        <div class="tile is-child is-3">
+          <figure class="work-logo image is-128x128">
+            <img src="./pictures/mcmaster.png" />
+          </figure>
+        </div>
+        <div class="tile is-child">
+          <p class="title is-4">McMaster University</p>
+          <p class="subtitle is-5">Honours Computer Science 3A Co-op <br  /><span class="subtitle is-6">SEPTEMBER 2015 – APRIL 2020</span></p>
+          <p>
+            I am currently studying <a href="http://academiccalendars.romcmaster.ca/preview_program.php?catoid=24&poid=14048" target="_blank">Computer Science</a> at McMaster University.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="tile is-ancestor">
+      <div class="tile is-parent work-elem">
+        <div class="tile is-child">
+          <h1 class="title is-2 section-title">Work</h1>
+        </div>
+      </div>
+    </div>
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+        <div class="tile is-parent work-elem">
+          <div class="tile is-child is-3">
+            <figure class="image is-128x128 work-logo">
+              <img src="./pictures/mappedin.png" />
+            </figure>
+          </div>
+          <div class="tile is-child work-content">
+            <p class="title is-4"><a href="https://mappedin.com/" target="_blank">Mappedin</a></p>
+            <p class="subtitle is-5">Software Developer in Test<br  /><span class="subtitle is-6">JANUARY 2018 – AUGUST 2018</span></p>
+            <p>
+              Mappedin is responsible for providing indoor mapping solutions to property owners.I work on the Consumer Team which is responsible for Mappedin Web and Directories.<br />
+            </p>
+          </div>
+        </div>
+        <div class="tile is-parent work-elem">
+          <div class="tile is-child is-3">
+            <figure class="image is-128x128 work-logo">
+              <img src="./pictures/rp4k.png" />
+            </figure>
+          </div>
+          <div class="tile is-child work-content">
+            <p class="title is-4"><a href="https://realprogramming.com" target="_blank">RP4K</a></p>
+            <p class="subtitle is-5">Game Development Instructor<br  /><span class="subtitle is-6">APRIL 2017 – AUGUST 2017</span></p>
+            <p>
+              RP4K provides classes to students ages 7-16 interested in programming.<br />
+            </p>
+          </div>
+        </div>
+        <div class="tile is-parent work-elem">
+          <div class="tile is-child is-3">
+            <figure class="image is-128x128 work-logo">
+              <img src="./pictures/mcmaster.png" />
+            </figure>
+          </div>
+          <div class="tile is-child work-content">
+            <p class="title is-4"><a href="http://www.onwie.ca/programs/go-eng-girl" target="_blank">Go ENG Girl</a></p>
+            <p class="subtitle is-5">Volunteer<br  /><span class="subtitle is-6">JANUARY 2018 – AUGUST 2018</span></p>
+            <p>
+              Go ENG Girl provides opportunities for girls in grades 7-10 to learn about women in engineering. <br />
+              I volunteered to educate 40+ students about the opportunities for women at McMaster Engineering. Furthermore, I contributed by aiding students with a hands on circuitry activity.
+            </p>
+          </div>
+        </div>
+        <div class="tile is-parent work-elem">
+          <div class="tile is-child is-3">
+            <figure class="image is-128x128 work-logo">
+              <img src="./pictures/outreach.png" />
+            </figure>
+          </div>
+          <div class="tile is-child work-content">
+            <p class="title is-4"><a href="http://outreach.mcmaster.ca/src/index.html" target="_blank">McMaster Computing and Software Outreach</a></p>
+            <p class="subtitle is-5">Volunteer<br  /><span class="subtitle is-6">JANUARY 2018 – AUGUST 2018</span></p>
+            <p>Mac Outreach introduces computer programming, binary concepts, and graphics to students ages 10-13 in the programming language Elm. <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="resume-button">
+      <a class="button is-primary is-outlined" target="_blank" href="https://drive.google.com/open?id=1M7jhrGUaB5vmEB8HmoxjTAaO2APwD4hq">View Resume</a>
+    </div>
+    <div class="container" id="top">
+      <a class="button" href="#coolio">
+       <span class="icon is-small">
+         <i class="fa fa-arrow-up"></i>
+       </span>
+     </a>
+    </div>
+  </section>
+
+</body>
 </html>

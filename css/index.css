@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #37474F;
+  background-color: #F5F5F5;
+}
+
+body #projects {
+  background-color: #4527A0;
+}
+
+body #projects .is-1 {
+  color: #F5F5F5;
+}
+
+a {
+  color: #7E57C2;
+  hover: #78909C;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 3rem;
+  min-height: 100vh;
+  background-color: inherit;
+  overflow-y: hidden;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+#about {
+  margin-top: 100px;
+  float: left;
+  margin-left: 40px;
+}
+
+#about .about-title {
+  padding-bottom: 0.5em;
+}
+
+#about .about-title, #about h1 {
+  margin-bottom: 40px;
+  font-size: 70px;
+  float: left;
+}
+
+#about .about-desc {
+  width: 80vw;
+  max-width: 700px;
+}
+
+#about .about-desc, #about p {
+  text-align: justify;
+  color: black;
+  font-size: 17px;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+}
+
+#nav {
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  transition: all 0.5s linear;
+}
+
+.overlay {
+  opacity: 0;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+}
+
+#top, #resume-button {
+  outline-color: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+#top .button, #resume-button .button {
+  border-color: #7E57C2;
+  color: #7E57C2;
+}
