@@ -15,7 +15,10 @@ body #projects .is-1 {
 
 a {
   color: #7E57C2;
-  hover: #78909C;
+}
+
+.title {
+  color: #7E57C2;
 }
 
 .section {
@@ -57,9 +60,13 @@ a {
 
 .arrow {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   left: 50%;
   margin-left: -20px;
+}
+
+a.nav-item.is-tab:hover {
+  border-bottom-color: #7E57C2;
 }
 
 #nav {
@@ -85,12 +92,20 @@ a {
 }
 
 #top, #resume-button {
-  outline-color: inherit;
+  padding: 5px;
+  outline-color: transparent;
   display: flex;
   justify-content: center;
 }
 
-#top .button, #resume-button .button {
-  border-color: #7E57C2;
+.button {
+  border-color: transparent;
   color: #7E57C2;
+  background-color: transparent;
+  flex: 2;
+}
+
+.button:focus, .button:hover {
+  border: transparent;
+  box-shadow: none;
 }
