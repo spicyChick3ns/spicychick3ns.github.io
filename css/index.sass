@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans')
 $fontStack : 'Josefin Sans', sans-serif
-$highlightColour: #7E57C2
+$accentColor: #7E57C2
 $hoverColour: #78909C
 $textColour: #37474F
 $mainBackgroundColour: #F5F5F5
+$animation_name: 'bounce' 
 
 body
   font-family: $fontStack
@@ -14,8 +15,10 @@ body
     .is-1
       color: $mainBackgroundColour
 a
-  color: $highlightColour
-  hover: $hoverColour
+  color: $accentColor
+
+.title 
+  color: $accentColor
 .section
   padding-top: 100px
   padding-bottom: 3rem
@@ -48,9 +51,13 @@ a
 
 .arrow
   position: absolute
-  bottom: 0
+  bottom: 5px
   left: 50%
   margin-left: -20px
+  
+a.nav-item.is-tab
+  &:hover
+    border-bottom-color: $accentColor
 
 #nav
   width: 100%
@@ -71,9 +78,17 @@ a
   width: 100%
   transition: .5s ease
 #top, #resume-button
-  outline-color: inherit
+  padding: 5px
+  outline-color: transparent
   display: flex
   justify-content: center
-  .button
-    border-color: $highlightColour
-    color: $highlightColour
+  
+.button
+  border-color: transparent
+  color: $accentColor
+  background-color: transparent
+  flex: 2
+  &:focus, &:hover
+    border: transparent
+    box-shadow: none
+
