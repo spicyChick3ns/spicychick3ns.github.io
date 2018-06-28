@@ -109,3 +109,24 @@ a.nav-item.is-tab:hover {
   border: transparent;
   box-shadow: none;
 }
+
+.gma {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.mom {
+  flex: 1;
+}
+
+.kid {
+  flex: 2;
+}
+
+.mini {
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
