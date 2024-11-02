@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 import ErrorPage from "./components/error-page";
 import About from "./routes/about";
@@ -10,7 +10,7 @@ import Home from "./routes/home";
 import Garden from "./routes/garden";
 import Now from "./routes/now";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Root />,
@@ -20,15 +20,15 @@ const router = createBrowserRouter([
         children: [
           { path: "/", element: <Home /> },
           {
-            path: "about",
+            path: "/about",
             element: <About />,
           },
           {
-            path: "garden",
+            path: "/garden",
             element: <Garden />,
           },
           {
-            path: "now",
+            path: "/now",
             element: <Now />,
           },
         ],

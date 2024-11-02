@@ -1,7 +1,6 @@
-import { lime, pink } from "@mui/material/colors";
+import { pink } from "@mui/material/colors";
 import "./App.css";
-import { Typography, Stack, createTheme, ThemeProvider, IconButton, Link, CssBaseline } from "@mui/material";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Stack, createTheme, ThemeProvider, CssBaseline } from "@mui/material";
 import Header from "./components/header";
 import { useMemo, useState } from "react";
 
