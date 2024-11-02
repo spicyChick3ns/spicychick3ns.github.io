@@ -50,7 +50,6 @@ function Root(props: RootProps) {
     <ThemeContext.Provider value={mode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-
         <Stack
           sx={{
             p: 3,

@@ -24,8 +24,9 @@ const Header = (props: HeaderProps) => {
   const [active, setActive] = useState(Pages.Home);
 
   const handleNavButtonClick = (value: React.SyntheticEvent<HTMLButtonElement>) => {
-    setActive(value.currentTarget.value as Pages);
-    navigate(`/${value.currentTarget.value}`);
+    const newValue = value.currentTarget.value;
+    setActive(newValue as Pages);
+    navigate(`/${newValue.toLowerCase()}`);
   };
 
   const handleThemeButtonClick = (value: React.SyntheticEvent<HTMLButtonElement>) => {
